@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+}
+#container{
+ 
+    background-color: black;
+    margin: auto;
+}
+#header{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
