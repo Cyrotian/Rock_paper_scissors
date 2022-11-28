@@ -30,8 +30,8 @@ body{
     margin:auto;
 }
 .player{
-    width: 80%;
-    height: 90%;
+    width: 580px;
+    height: 300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -41,11 +41,12 @@ body{
 .score{
     background-color: darkgreen;
     height: 100px;
-    width: 470px;
+    width: 560px;
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 .play{
     background-color: yellowgreen;
@@ -62,11 +63,11 @@ body{
 .image-score{
     background-color: aqua;
     display: flex;
-    width: 35%;
+    width: 40%;
     margin: 4px;
     height: 100%;
 }
-.score-images{
+#score-image-1, #score-image-2{
     width: 100%;
     height:100%
 }

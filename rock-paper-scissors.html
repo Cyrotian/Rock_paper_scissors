@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src  = "rock-paper-scissors.js"></script>
     <link rel="stylesheet" type="text/css" href="rock-paper-scissors.css" />
     <title>Rock paper scissors</title>
 </head>
@@ -20,10 +19,10 @@
 
                 <div class="player">
                     <div class="image-score">
-                        <img src="./paper.png" alt="human-computer-current" class="score-images">
+                        <img src="./images/paper.png" alt="human-computer-current" id="score-image-1">
                     </div>
                     <div class="image-score">
-                        <img src="./scissors.png" alt="human-computer-current" class="score-images">
+                        <img src="./images/rock.png"" alt="human-computer-current" id="score-image-2">
                     </div>
                 </div>
 
@@ -31,11 +30,13 @@
                     Score
 
                 </div>
-                <button class="play">Play</button>
+                <button class="play" onclick="play()">Play</button>
 
             </div>
         </div>
     </div>
-    
+
+    <script src  = "rock-paper-scissors.js"></script>
 </body>
+
 </html>
