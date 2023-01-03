@@ -1,5 +1,5 @@
 
-// Declearing variables
+// Declearing variables for use
 var player_score_value = 0;
 var computer_score_value = 0;
 const play_btn = document.getElementById('play')
