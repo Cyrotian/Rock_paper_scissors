@@ -31,6 +31,8 @@ body{
     width: 100%;
     display: grid;
     margin:auto;
+
+    
 }
 .player{
     width: 580px;
@@ -38,6 +40,7 @@ body{
     margin: auto;
     display: flex;
     justify-content: space-between;
+
 }
 
 .score{
@@ -77,11 +80,13 @@ body{
     width: 40%;
     margin: 4px;
     height: 100%;
+
 }
 #score-image-1, #score-image-2{
     width: 100%;
     height:100%
 }
+
 #score_value{
     font-size: 175px;
     margin-top: auto;
@@ -99,4 +104,63 @@ body{
     width: 40%;
     text-align: center;
     font-size: 25px;
+}
+#user_selection{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    margin: auto;
+    float: left
+}
+#selection{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: flex-start;
+}
+
+#selection-button_1, #selection-button_2, #selection-button_3{
+    font-family: cursive;
+    background-color: #d391176b;
+    display: flex;
+    align-self: flex-start;
+    width:75px;
+    height: 30px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 15px;
+    color: white;
+    border: ridge;
+    border-color: #C79FB6;
+    border-radius: 15px;
+}
+
+#selection-button_1:hover, #selection-button_2:hover, #selection-button_3:hover{
+    background-color: #c9b5b59c;
+    animation: shake 0.75s ease-in-out;
+    
+}
+@keyframes shake{
+    0% {
+        transform: skewX(-30deg);
+    }
+    25% {
+        transform: skewX(30deg);
+    }
+   
+    50% {
+        transform: skewX(-30deg);
+    }
+    
+    75% {
+        transform: skewX(30deg);
+    }
+    100% {
+        transform: skewX(-30deg);
+    }
+
 }
