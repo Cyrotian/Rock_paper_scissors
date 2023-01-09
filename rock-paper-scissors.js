@@ -138,7 +138,7 @@ async function results(){
         start()
         
     }else{
-        alert(`Congratulations ${user_name}, you won`)
+        alert(`Congratulations ${user_name}, you win`)
         set_default()
         start()
     }
