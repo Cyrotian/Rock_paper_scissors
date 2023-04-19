@@ -3,10 +3,9 @@ body{
     height: 100%;
     font-family: cursive;
     color: #F5F5F5;
-    
 }
-#container{
 
+#container{
     margin: auto;
     width: 50%;
     height: 70vh;
@@ -18,33 +17,31 @@ body{
     width: 100%;
     height:70%;
     margin-top: 10px;
-    
 }
+
 .title{
     margin: auto;
     width: 100%;
     text-align: center;
     font-size: 30px;
 }
+
 .rock-paper-scissors-class{
     height: 75%;
     width: 100%;
     display: grid;
     margin:auto;
-
-    
 }
+
 .player{
     width: 580px;
     height: 300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-
 }
 
 .score{
-    
     height: 100px;
     width: 560px;
     display: flex;
@@ -53,6 +50,7 @@ body{
     justify-content: center;
     margin-top: 50px;
 }
+
 #play{
     font-family: cursive;
     background-color: #796e596b;
@@ -75,13 +73,14 @@ body{
 #play:hover{
     background-color: #c9b5b59c;
 }
+
 .image-score{
     display: flex;
     width: 40%;
     margin: 4px;
     height: 100%;
-
 }
+
 #score-image-1, #score-image-2{
     width: 100%;
     height:100%
@@ -92,6 +91,7 @@ body{
     margin-top: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #names{
     width: 580px;
     height: 30px;
@@ -100,11 +100,13 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .ids{
     width: 40%;
     text-align: center;
     font-size: 25px;
 }
+
 #user_selection{
     width: 100%;
     height: 10px;
@@ -112,6 +114,7 @@ body{
     margin: auto;
     float: left
 }
+
 #selection{
     width: 50%;
     height: 50px;
@@ -141,9 +144,9 @@ body{
 
 #selection-button_1:hover, #selection-button_2:hover, #selection-button_3:hover{
     background-color: #c9b5b59c;
-    animation: shake 0.75s ease-in-out;
-    
+    animation: shake 0.75s ease-in-out;  
 }
+
 @keyframes shake{
     0% {
         transform: skewX(-30deg);
