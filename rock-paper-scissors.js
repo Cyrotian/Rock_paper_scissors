@@ -9,10 +9,6 @@ const choice_scissors = document.getElementById('selection-button_3')
 const score = document.querySelector('#score_value')
 const name_of_player = document.querySelector('#player_name')
 
-
-
-
-
 // setting the default image for reset
 document.getElementById('score-image-1').src = `./images/paper.png`
 document.getElementById('score-image-2').src = `./images/paper.png`
@@ -24,12 +20,10 @@ image_array = [
     'scissors.png'
 ]
 
-
 // reloding the page when game is over
 function set_default(){
     window.location.reload();
 }
-
 
 function image(image_value, player){
     // setting the image based on player input
@@ -45,12 +39,10 @@ function image(image_value, player){
     }
 }
 
-
 // updating the score
 function update_score(){
     score.innerHTML = `${player_score_value} - ${computer_score_value} `
 }
-
 
 // playing the game
 function play(user_choice){
@@ -97,9 +89,7 @@ function play(user_choice){
     }
 }
 
-
 // start of the game, getting player name
-
 var user_name = prompt("Welcome, what is your name?")
 
 function popup(){
@@ -110,11 +100,9 @@ function popup(){
     }else{
         name_of_player.innerHTML = user_name
     }
-
     // Giving the player instructions
     alert(`Hi ${user_name}, this is rock paper scissor game, please select your option`)
 }
-
 
 // setting a wait time for asyc fucntion with a variable in milisec
 function waiting(sec) {
@@ -125,9 +113,7 @@ function waiting(sec) {
 
 // an async fuction that takes pauses for however many seconds then continues with its process
 async function results(){
-    
     // waiting for 400 miliseconds
-
     // reason for this was that this would show before the score updates
     await waiting(400)
 
@@ -142,9 +128,7 @@ async function results(){
         set_default()
         start()
     }
-   
 }
-
 
 // user choice based on button clicked
 function user_choice(){
@@ -158,10 +142,8 @@ function user_choice(){
 
     choice_scissors.addEventListener("click", function onclick(){
         play('scissors')
-    });
-    
+    });  
 }
-
 
 // starting the game
 function start(){
